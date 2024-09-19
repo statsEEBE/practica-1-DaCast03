@@ -10,6 +10,8 @@ qsec_intervalos = cut(mis_dades$qsec, breaks = 4)
 
 table(qsec_intervalos)
 
+#Para hacer el histograma hay que usar 'hist'
+
 hist(mis_dades$qsec, breaks = 10)
 
 #Para hacer el promedio hay que usar 'mean'
